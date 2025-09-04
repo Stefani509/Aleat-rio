@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(98, 144, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.caixa{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(235, 251, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    border: none;
+    margin-top: 50px;
+
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        align-self: center;
+    }
+
+#sim{
+  border-radius: 1px;
+  border: none;
+  width: 25px;
+  height: 10px;
+  background-color: rgb(70, 70, 70);
+}
+
+
+#nao{
+    cursor: pointer;
+    
+}
+
+
+
+h1{
+    font-size: 20px;
+    color: rgb(45, 6, 239);
+}
+    
+.btn{
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.nao{
+   width: 40px;
+   height: 20px;
+}
